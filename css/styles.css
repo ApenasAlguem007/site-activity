@@ -1,0 +1,195 @@
+#nome {
+    font-weight: 600;
+    text-shadow: 8px 8px 8px #000000;
+    color: rgb(255, 255, 255);
+    padding-top: 50px;
+    padding-bottom: 50px;
+    font-size: xx-large;
+    text-align: center;
+  
+}
+
+body {
+    background-image: url(../img/frieren.jpeg);
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.moldura {
+    background-image: url(../img/moldura.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 100%;
+    height: 880px;
+}
+
+
+.grid-container {
+
+    background-color: rgba(255, 255, 255, 85%);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    border-radius: 15px;
+    width: 1250px;
+    height: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 40% 2% 40%;
+}
+
+.titulo {
+    margin: auto;
+    padding-top: 80px;
+    color: #8a6d34;
+}
+
+.gif {
+    background-image: url(../img/gif.gif);
+
+    background-position: center;
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+}
+
+.linha {
+    border-top: 3px solid #8a6d34;
+    width: 80%;
+    margin: 45px auto 45px auto;
+}
+
+.introducao {
+    font-size: x-large;
+    text-align: center;
+    margin: auto;
+    width: 80%;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+
+
+.moldura2{
+    background-image: url(../img/moldura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 880px;
+    margin-top: 100px;
+}
+
+.grid2-container{
+    background-color: rgba(255, 255, 255, 85%);
+    text-align: center;
+    width:1250px;
+    height: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 40% 2% 40%;
+}
+
+.enredo{
+    margin: auto;
+    padding-top: 50px;
+    color: #8a6d34;
+    font-size:x-large;
+}
+
+
+.linha2 {
+    border-top: 3px solid #8a6d34;
+    width: 80%;
+    margin: 40px auto 35px auto;
+}
+
+
+.escrita{
+    text-align: center;
+    font-size: x-large;
+    padding-right: 200px;
+    padding-left: 200px;
+    color: #000000;
+
+}
+
+.imagem-enredo{
+background-image: url(../img/sinopse2.png);
+background-position: top;
+background-repeat: no-repeat;
+width: 100%;
+height: 300px;
+clip-path: circle(45%);
+shape-outside: circle(40%);
+
+}
+
+
+.grid3{
+
+    background-color: rgba(255, 255, 255, 85%);
+    text-align: center;
+    width: 1250px;
+    height: 1000px;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 40% 2% 40%;
+}
+
+.moldura3{
+    background-image: url(../img/moldura.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 100%;
+    height: 880px;
+    margin-top: 100px;
+
+}
+
+.sinopse{
+    margin: auto;
+    padding-top: 50px;
+    color: #8a6d34;
+    font-size:x-large;
+}
+
+.paragrafo{
+
+    font-size: x-large;
+    text-align: left;
+    color: black;
+    padding-left: 150px;
+    padding-right: 600px;
+    margin-top: 80px;
+
+}
+
+.imagemsnp{
+    background-image: url(../img/imagemdosinopse.jpg);
+    background-repeat: no-repeat;
+    background-position:left;
+    width: 800px;
+    height: 500px;
+    clip-path: circle(45%);
+shape-outside: circle(40%);
+     object-position: left;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
