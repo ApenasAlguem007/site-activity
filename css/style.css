@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@100..900&family=Macondo&family=Metamorphous&family=Modern+Antiqua&family=Special+Elite&display=swap');
+
 
 div{
     width: auto; 
-    margin-bottom: 15px; 
+    margin-bottom: 50px; 
+    
    
 }
 
@@ -9,8 +12,7 @@ div{
 h2{
     color: #b38b4c;
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
+    font-family: 'Metamorphous';
 }
 
 
@@ -19,20 +21,27 @@ ol{
     text-align: left;
     font-size: x-large;
     color: black;
-    font-family: Arial;
+    font-family: 'Metamorphous';
+    ;
     
 }
 
 
 footer{
-    background-color: rgba(255, 255, 255, 0.781);
-    position: sticky;
-    bottom: 0;
-    width: 100%;
-    height: 40px;
-    text-align: center;
-    padding-top: 10px;
+
+    left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  color: white;
+  text-align: center;
+  padding-top: 200px;
+  object-position: center;
+  overflow: hidden; 
+  object-fit: cover;
+
 }
+
 .removeunderline{
     text-decoration: none;
     color: black;
@@ -60,13 +69,31 @@ footer{
     text-align: center; 
     color: white;
     text-shadow: black 4px 5px 2px;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial;
+    font-family:'Metaphormus'
     
 }
 
+
+.capa > img {
+    width: 500px; 
+    height: 500px; 
+    overflow: hidden; 
+    object-fit: cover;
+
+  }
+
+  .autoconhecimento > img{
+
+    border-radius: 15px; 
+    overflow: hidden; 
+    object-fit: cover;
+    padding-top: 20px;
+
+  }
+
 .caixinha{
     text-align: center;
-    padding:  10px;
+    padding:  50px;
     margin-left: 450px;
     margin-right: 450px;
     border-radius: 10px;
@@ -74,6 +101,7 @@ footer{
     border: 50px solid transparent;
     background-color: rgba(255, 255, 255, 0.836);
     border-image: url(../img/moldura.png) 10% round;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.63);
     
 }
 
@@ -81,8 +109,8 @@ footer{
     color: black;
     padding: 10px;
     text-align: left;
-    font-size: x-large;
-    font-family: Arial;
+    font-size: large;
+    font-family: 'Metamorphous';
 }
  
 .group{ 
@@ -101,16 +129,16 @@ footer{
     margin-left: 100px;
     margin-right: 10px;
     font-size: large;
-    font-family: Arial;
+    font-family: 'Metamorphous';
 
 }
 
 .sinopse{
-    font-size: x-large;
+    font-size: large;
     color: black;
     padding: 15px;
     text-align: left;
-    font-family: Arial;
+    font-family: 'Metamorphous';
 }
 
 .img3{
@@ -144,10 +172,10 @@ footer{
     color: black;
     text-align: center;
     padding-top: 10px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 150px;
+    margin-right: 150px;
     font-size: large;
-    font-family: Helvetica;
+    font-family: 'Metamorphous';
 }
 
 .criadores{
@@ -157,7 +185,7 @@ footer{
     font-size: x-large;
     margin-left: 80px;
     margin-right: 80px;
-    font-family: Arial;
+    font-family: 'Metamorphous';
 }
 
 
@@ -175,11 +203,40 @@ footer{
 .porquever{
     padding-top: 20px;
     color: black;
-    font-size: x-large;
+    font-size: large;
     text-align: center;
-    font-family: Arial;
+    font-family: 'Metamorphous';
+}
+
+
+.jornada{
+        padding-top: 20px;
+        color: black;
+        font-size: large;
+        text-align: center;
+        font-family: 'Metamorphous';
+}
+
+.estudio p{
+    padding-top: 20px;
+    color: black;
+    font-size: large;
+    text-align: left;
+    font-family: 'Metamorphous';
+}
+
+
+
+.detalhes{
+    padding-top: 20px;
+    color: black;
+    font-size: large;
+    text-align: center;
+    font-family: 'Metamorphous';
+
 
 }
+
 
 .personagem {
     margin-left: 8px;
@@ -201,7 +258,7 @@ footer{
     margin-top: 10px;
     font-size: large;
     color: #333;
-    font-family: Arial;
+    font-family: 'Metamorphous';
     
 }
 
@@ -209,9 +266,10 @@ footer{
     color: black;
     text-align: center;
     padding-top: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
-    font-size: x-large;
-    font-family: Helvetica;
+    padding-bottom: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: large;
+    font-family: 'Metamorphous';
  }
 
